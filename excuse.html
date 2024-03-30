@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+   <!-- Libraries Stylesheet -->
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
+   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+   <!-- Customized Bootstrap Stylesheet -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Template Stylesheet -->
+   <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    
+<div class="wrapper">
+  <div class="typing-demo">
+    Coming soon <br>
+    Its Still <br>
+    under Construction,<br>
+     Stay tuned..  </div>
+</div>
+
+<a class="btn btn-primary py-3 px-5 mt-3" href="/index.html">Return back</a>
+
+
+<style>
+  .wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 54ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  color: aliceblue;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 26px;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+body{
+  background: url(./images/Sovereign6Desert-Jet-provides-private-jet-charter-flights-and-aircraft-management-resize.jpg);
+  background-size: cover, auto;
+  background-color: black;
+}
+</style>
+
+
+</body>
+</html>
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Typewriter</h1>
+
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Lorem ipsum dummy text blabla.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
+-->
